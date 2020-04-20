@@ -3,12 +3,12 @@
       <span class="sr-only">Go back to homepage</span>
     </a>
 
-    <nav class="flex items-center ml-auto -mb-px">
-	<a href="https://thedixons.net"><img src="/assets/img/logo.png" alt="TheDixons logo - an old-fashioned Quaker hat" align="left"></a>
-	<p>The Dixons<br />A Colonial Quaker Family</p>
+    <nav class="items-center min-w-full ml-auto -mb-px lg:flex">
+	<a href="https://thedixons.net"><img src="/assets/img/logo.png" alt="TheDixons logo - an old-fashioned Quaker hat" align="left" class="w-1/4 mr-2 align-middle lg:w-full"></a>
+	<p class="text-sm align-text-top lg:text-lg">The Dixons<br />A Colonial Quaker Family</p>
       {% for item in navigation.main %}
       <a {% if item.external %}rel="external" {% endif %} href="{{ item.url | safe }}"
-        class="px-1 py-6 leading-5 whitespace-no-wrap border-b-2 border-transparent focus:outline-none hover:border-cool-gray-700 focus:border-cool-gray-700 ml-6 md:ml-12 {% if page.url == item.url %}border-primary{% endif %}"
+        class="px-1 py-6 leading-5 whitespace-no-wrap border-b-2 border-transparent focus:outline-none hover:border-cool-gray-700 focus:border-cool-gray-700 text-sm lg:text-lg ml-2 md:ml-12 {% if page.url == item.url %}border-primary{% endif %}"
         {% if page.url == item.url %} aria-current="page" {% endif %}>{{ item.label }}</a>
       {% endfor %}
       {% if site.allowDarkMode %}
