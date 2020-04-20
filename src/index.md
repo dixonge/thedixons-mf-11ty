@@ -16,4 +16,4 @@ I have tried several different software programs and web programs over the years
 
 On my father's side, I am working on Dixon, Stanley and Stidley lines. On my mother's, Peterson, Camp and Ellis.
 
-I am cleaning up records and adding a lot of scanned documents and images to WikiTree. Soon I will begin developing more narratives here. I am also beginning the process of logging all of my research, something that definintely belongs here, probably in the news section. Enjoy!
+I am cleaning up records and adding a lot of scanned documents and images to WikiTree. Soon I will begin developing more narratives here. I am also beginning the process of logging all of my research, something that definitely belongs here, probably in the news section. Enjoy!
