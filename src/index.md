@@ -1,10 +1,8 @@
 ---
-layout: layouts/post.njk 
-ignoreGitHubButtons: true
-ignoreSupporters: true
-searchTitle: Welcome
+layout: default
 title: Welcome
 author: Glenn Dixon
+description: "Welcome!"
 ---
 {% picture "grandpacornall.jpg", "My great great grandfather, William Cornall, standing in front of a structure" %}
 
