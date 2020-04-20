@@ -16,13 +16,13 @@ module.exports = {
   author: {
     name: "Glenn Dixon", // For posts meta and Open Graph meta (FB and Twitter)
     email: "donblanco@posteo.net",
-    github: "https://github.com/dixonge",
+    github: "https://github.com/dixonge/thedixons-mf-11ty",
     twitter: "https://twitter.com/realglenndixon",
   },
 
   meta_data: {
     theme_color: "#ffffff", // used in Chrome, Firefox OS and Opera
-    default_social_image: "/assets/img/featured_image.png", // For Open Graph meta
+    default_social_image: "https://res.cloudinary.com/donblanco/image/upload/f_auto,q_auto/TheDixons/avatar-small.png", // For Open Graph meta
     locale: "en_US", // For Open Graph meta
     twitter_username: "@realglenndixon", // For Twitter Open Graph meta
   },
