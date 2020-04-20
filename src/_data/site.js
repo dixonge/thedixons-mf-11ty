@@ -10,7 +10,7 @@ module.exports = {
   lang: "en", // for html tag
   title: "The Dixons",
   description: "The Dixons - A Colonial Quaker Family",
-  url: "https://", // Don't end with a slash /
+  url: "https://thedixons.net", // Don't end with a slash /
   brandName: "The Dixons", // for copyright and legal page
 
   author: {
