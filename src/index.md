@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: layouts/home.njk
 title: Welcome
 author: Glenn Dixon
 description: "Welcome!"
