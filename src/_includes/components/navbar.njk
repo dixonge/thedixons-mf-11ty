@@ -1,9 +1,9 @@
 <div class="{{ classes.navbar }} items-center ml-auto mr-auto">
+
+    <nav class="items-center min-w-full ml-auto -mb-px lg:flex">
     <a href="https://thedixons.net">
       <span class="sr-only">Go back to homepage</span>
     </a>
-
-    <nav class="items-center min-w-full ml-auto -mb-px lg:flex">
 	<a href="https://thedixons.net"><img src="/assets/img/logo.png" alt="TheDixons logo - an old-fashioned Quaker hat" align="left" class="w-1/4 mr-2 align-middle lg:w-full"></a>
 	<p class="text-sm align-text-top lg:text-lg">The Dixons<br />A Colonial Quaker Family</p>
       {% for item in navigation.main %}
@@ -12,7 +12,7 @@
         {% if page.url == item.url %} aria-current="page" {% endif %}>{{ item.label }}</a>
       {% endfor %}
       {% if site.allowDarkMode %}
-      <button id="dark-mode-toggle" class="p-2 ml-6 md:ml-12" aria-hidden="true">
+      <button id="dark-mode-toggle" class="p-2 ml-6 md:ml-12" aria-hidden="false">
         <svg aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6 moon-icon">
           <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
         </svg>
