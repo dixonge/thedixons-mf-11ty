@@ -18,7 +18,8 @@
     "watch": "npm-run-all --parallel watch:css watch:html",
     "watch:css": "postcss src/_css/app.css -o src/assets/style.css --watch",
     "watch:html": "eleventy --serve --port=1982",
-    "dev": "del-cli dist && npm run watch"
+    "dev": "del-cli dist && npm run watch",
+    "upgrade-interactive": "npm-check --update"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
@@ -38,6 +39,7 @@
     "yarn": "^1.22.4"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.6"
+    "autoprefixer": "^9.7.6",
+    "npm-check": "^5.9.2"
   }
 }
